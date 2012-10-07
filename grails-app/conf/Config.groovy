@@ -11,6 +11,7 @@
 //    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
 // }
 
+//import grails.plugins.springsecurity.SecurityConfigType
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 grails.mime.file.extensions = true // enables the parsing of file extensions from URLs into the request format
 grails.mime.use.accept.header = false
@@ -91,6 +92,7 @@ log4j = {
 }
 
 // Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.password.algorithm= 'MD5'
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.yagi.paymentgateway.User'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.yagi.paymentgateway.UserRole'
 grails.plugins.springsecurity.authority.className = 'com.yagi.paymentgateway.Role'
