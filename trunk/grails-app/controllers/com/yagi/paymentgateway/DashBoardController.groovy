@@ -3,6 +3,6 @@ package com.yagi.paymentgateway
 class DashBoardController {
 
     def index() {
-        render view:'/home/new'
+        render view:'/home/welcome'
     }
 }
