@@ -178,6 +178,7 @@ div.cont:after{
 	}
 div.cont div{
 	float:left;
+
 	}
 div.cont div.left{
 	width:235px;
@@ -446,3 +447,87 @@ input.icon-save{
 	text-indent:-9999em;
 	background:url(../images/icon-save.jpg) no-repeat 0 0;
 	}
+
+/*For Login Box*/
+#login {
+    margin: -55px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#login .inner {
+    width: 500px;
+    padding-bottom: 6px;
+    margin: 60px auto;
+    text-align: left;
+    border: 1px solid #aab;
+    background-color: #f0f0fa;
+    -moz-box-shadow: 2px 2px 2px #eee;
+    -webkit-box-shadow: 2px 2px 2px #eee;
+    -khtml-box-shadow: 2px 2px 2px #eee;
+    box-shadow: 2px 2px 2px #eee;
+}
+
+#login .inner .fheader {
+    /*padding: 18px 104px 14px 104px;*/
+    padding: 18px 184px 14px;
+    background-color: #f7f7ff;
+    margin: 0px 0 14px 0;
+    color: #2e3741;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#login .inner .cssform p {
+    clear: left;
+    margin: 0;
+    padding: 4px 0 3px 0;
+    padding-left: 105px;
+    margin-bottom: 20px;
+    height: 1%;
+}
+
+#login .inner .cssform input[type='text'] {
+    width: 120px;
+}
+
+#login .inner .cssform label {
+    float: left;
+    font-weight: bold;
+    margin-left: 0;
+    padding-right: 13px;
+    padding-top: 2px;
+    text-align: center;
+    width: 125px;
+}
+
+#login #remember_me_holder {
+    padding-left: 120px;
+}
+
+#login #submit {
+    margin-left: 138px;
+}
+
+#login #remember_me_holder label {
+    float: none;
+    margin-left: 0;
+    text-align: left;
+    width: 200px
+}
+
+#login .inner .login_message {
+    padding: 0px 25px 20px 25px;
+    color: #c33;
+    font-size: 12px;
+}
+
+#login .inner .text_ {
+    width: 120px;
+}
+
+#login .inner .chk {
+    float: left;
+    height: 50px;
+    margin-left: 123px;
+}
