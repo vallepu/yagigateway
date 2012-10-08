@@ -6,15 +6,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 
-<%@ page contentType="text/html;charset=UTF-8" %>
+%{--<%@ page contentType="text/html;charset=UTF-8" %>--}%
 <head>
-    <link rel="stylesheet" href="${resource(dir: 'css', file:'base.css')}" type="text/css" >
-    %{--<link rel="stylesheet" type="text/css" href="css/customer.base.css" />
-    <script language="javascript" type="text/javascript" src="scripts/curvy.corners.trunk.js"></script>--}%
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title><g:layoutTitle default="Yagiten , Payment Gateway"/></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Welcome -Payment Gateway</title>
+    <r:require module="core"/>
 
     <g:layoutHead/>
+    <r:layoutResources />
 </head>
 <body>
 <div class="main">
@@ -25,14 +27,7 @@
         <g:render template="/inc/navigator"/>
     </ul>
     <div class="cont">
-        <div class="left">
-             <g:render template="/inc/left"/>
-
-        </div>
-        <div class="right">
-            <g:render template="/inc/right"/>
-            <g:layoutBody/>
-        </div>
+        <g:layoutBody/>
     </div>
 
     <div class="footer">
